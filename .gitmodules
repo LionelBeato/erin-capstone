@@ -1,3 +1,6 @@
 [submodule "Capstone-React"]
 	path = Capstone-React
 	url = https://github.com/LionelBeato/Capstone-React
+[submodule "Capstone-Spring"]
+	path = Capstone-Spring
+	url = https://github.com/LionelBeato/Capstone-Spring
