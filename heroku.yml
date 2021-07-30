@@ -1,0 +1,4 @@
+build:
+  docker:
+    web: Capstone-React/Dockerfile
+    spring: Capstone-Spring/Dockerfile
