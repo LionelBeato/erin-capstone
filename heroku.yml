@@ -1,6 +1,6 @@
 build:
   docker:
-    web: Capstone-React/Dockerfile.web
+    # web: Capstone-React/Dockerfile.web
     spring: Capstone-Spring/Dockerfile.backend
 setup:
   addons:
