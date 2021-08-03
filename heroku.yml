@@ -1,7 +1,7 @@
 build:
   docker:
     # web: Capstone-React/Dockerfile.web
-    spring: Capstone-Spring/Dockerfile.backend
+    web: Capstone-Spring/Dockerfile
 setup:
   addons:
     - plan: heroku-postgresql
