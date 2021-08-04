@@ -17,11 +17,13 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+          
+      - name: change directory
+        run: cd Capstone-React
 
       - name: Build frontend
         run: |
           ls
-          cd Capstone-React
           npm install
         #  npm run build
         #  cp build ../Capstone-Spring/src/main/resources/static
