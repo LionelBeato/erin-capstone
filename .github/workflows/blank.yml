@@ -14,11 +14,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-      - name: Run a one-line script
+      - name: Build frontend
         run: |
+          cd Capstone-React
+          npm build
+          cp build ../Capstone-Spring/src/main/resources/static
+          cd ../Capstone-Spring/src/main/resources/static
           ls
-          pwd
         
       - name: Run a multi-line script
         run: |
