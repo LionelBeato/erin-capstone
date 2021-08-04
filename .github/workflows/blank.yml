@@ -25,7 +25,6 @@ jobs:
           npm run build
           cp build ../Capstone-Spring/src/main/resources/static
           cd ../Capstone-Spring/src/main/resources/static
-          ls
         
       - name: Run a multi-line script
         run: |
