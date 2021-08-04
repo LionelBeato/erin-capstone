@@ -20,6 +20,7 @@ jobs:
 
       - name: Build frontend
         run: |
+          ls
           cd Capstone-React
           npm install
         #  npm run build
