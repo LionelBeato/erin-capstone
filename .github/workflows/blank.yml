@@ -21,9 +21,10 @@ jobs:
       - name: Build frontend
         run: |
           cd Capstone-React
-          npm run build
-          cp build ../Capstone-Spring/src/main/resources/static
-          cd ../Capstone-Spring/src/main/resources/static
+          ls
+        #  npm run build
+        #  cp build ../Capstone-Spring/src/main/resources/static
+        #  cd ../Capstone-Spring/src/main/resources/static
         
       - name: Run a multi-line script
         run: |
