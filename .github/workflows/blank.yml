@@ -21,6 +21,7 @@ jobs:
       - name: Build frontend
         run: |
           cd Capstone-React
+          npm install
           npm build
           cp build ../Capstone-Spring/src/main/resources/static
           cd ../Capstone-Spring/src/main/resources/static
