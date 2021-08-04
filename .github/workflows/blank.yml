@@ -20,7 +20,7 @@ jobs:
         run: cd Capstone-React
 
       - name: Build frontend
-      - uses: actions/setup-node@v2
+        uses: actions/setup-node@v2
         with:
           node-version: '14'
         run: |
