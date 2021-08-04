@@ -21,7 +21,7 @@ jobs:
       - name: Build frontend
         run: |
           cd Capstone-React
-          ls
+          pwd
         #  npm run build
         #  cp build ../Capstone-Spring/src/main/resources/static
         #  cd ../Capstone-Spring/src/main/resources/static
