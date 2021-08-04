@@ -18,10 +18,16 @@ jobs:
 #         with:
 #           node-version: '14'
 
+      - name: clone repo
+        run: git clone https://github.com/LionelBeato/Capstone-React.git
     
       - name: Build frontend
         working-directory: Capstone-React
-        run: npm run build
+        run: |
+         npm run build
+         
+        
+        
       #  npm run build
       #  cp build ../Capstone-Spring/src/main/resources/static
       #  cd ../Capstone-Spring/src/main/resources/static 
