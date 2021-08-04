@@ -24,9 +24,9 @@ jobs:
       - name: Build frontend
         working-directory: Capstone-React
         run: |
+         npm install
          npm run build
-         
-        
+
         
       #  npm run build
       #  cp build ../Capstone-Spring/src/main/resources/static
