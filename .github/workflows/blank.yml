@@ -22,6 +22,7 @@ jobs:
         run: |
           cd Capstone-React
           pwd
+          ls
         #  npm run build
         #  cp build ../Capstone-Spring/src/main/resources/static
         #  cd ../Capstone-Spring/src/main/resources/static
