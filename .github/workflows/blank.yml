@@ -19,9 +19,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: | 
-          npm run build
-          ls
+      - run: npm run build
       #  npm run build
       #  cp build ../Capstone-Spring/src/main/resources/static
       #  cd ../Capstone-Spring/src/main/resources/static 
