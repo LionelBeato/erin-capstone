@@ -35,7 +35,7 @@ jobs:
       - name: move into resources
         working-directory: Capstone-Spring
         run: |
-          mv build main
+          mv build main/src/resources/static
          
           
       
