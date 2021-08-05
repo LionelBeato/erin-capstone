@@ -34,7 +34,7 @@ jobs:
 
       - name: copy directory
         run: |
-          cp -r Capstone-React/build ../Capstone-Spring/src/main/resources/static
+          cp -r Capstone-React/build Capstone-Spring/src/main/resources/static
       
          
          
