@@ -14,10 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Copy Directory
-        uses: MadaraUchiha/copy-action@0.0.1
-
-
+      
       - name: clone repo
         run: git clone https://github.com/LionelBeato/Capstone-React.git
     
@@ -29,9 +26,11 @@ jobs:
          npm install
          npm run build
          
-      - name: copy build
-        run: |
-         cp -r Capstone-React/build Capstone-Spring/src/main/resources/static
+      - name: Copy Directory
+        uses: MadaraUchiha/copy-action@0.0.1
+         with:
+         source: "Capstone-React/build"
+         target: "Capstone-Spring/src/main/resources/static"
          
          
  
