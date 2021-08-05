@@ -37,6 +37,7 @@ jobs:
           cp -r Capstone-React/build ./
           ls
           mv build Capstone-Spring
+          ls
       
       
          
