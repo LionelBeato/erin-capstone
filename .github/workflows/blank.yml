@@ -33,12 +33,11 @@ jobs:
         run: |
           cp -r Capstone-React/build ./
           ls
-          mv build Capstone-Spring
           
       - name: move into resources
         working-directory: Capstone-Spring
         run: |
-          mv build main
+          mv ../build main/src/resources/static
           cd main
           ls
          
