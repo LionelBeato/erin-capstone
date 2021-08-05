@@ -27,6 +27,7 @@ jobs:
          npm cache clean --force
          npm install
          npm run build
+         ls
          
       #  npm run build
       #  cp build ../Capstone-Spring/src/main/resources/static
