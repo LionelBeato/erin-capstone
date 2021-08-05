@@ -37,7 +37,7 @@ jobs:
       - name: move into resources
         working-directory: Capstone-Spring
         run: |
-          ls main/src/resources/static
+          ls src/main/resources/static
           cd main
           ls
          
