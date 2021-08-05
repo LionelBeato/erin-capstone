@@ -35,6 +35,7 @@ jobs:
       - name: copy directory
         run: |
           cp -r Capstone-React/build ./
+          ls
       
       
          
