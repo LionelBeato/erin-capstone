@@ -36,7 +36,7 @@ jobs:
         run: |
           cp -r Capstone-React/build ./
           ls
-          mvs build Capstone-Spring
+          mv build Capstone-Spring
       
       
          
