@@ -26,17 +26,17 @@ jobs:
          npm install
          npm run build
          
-#       - name: Copy Directory
-#         uses: MadaraUchiha/copy-action@0.0.1
-#         with:
-#          source: "Capstone-React/build"
-#          target: "Capstone-Spring/src/main/resources/static"
-
       - name: copy directory
         run: |
           cp -r Capstone-React/build ./
           ls
-          mv build Capstone-Spring/src/main/
+          mv build Capstone-Spring
+          
+      - name: move into resources
+        working-directory: Capstone-Spring
+        run: |
+          mv build main
+         
           
       
       
