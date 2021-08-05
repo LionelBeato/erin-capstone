@@ -22,10 +22,11 @@ jobs:
         run: git clone https://github.com/LionelBeato/Capstone-React.git
     
       - name: Build frontend
-        working-directory: Capstone-React
+#         working-directory: Capstone-React
         env:
           CI: ""
         run: |
+         cd Capstone-React
          npm cache clean --force
          npm install
          npm run build 
