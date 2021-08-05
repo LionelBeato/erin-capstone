@@ -23,6 +23,8 @@ jobs:
     
       - name: Build frontend
         working-directory: Capstone-React
+        env:
+          CI: ""
         run: |
          npm cache clean --force
          npm install
