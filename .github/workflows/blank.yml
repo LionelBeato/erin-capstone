@@ -28,7 +28,7 @@ jobs:
          
       - name: Copy Directory
         uses: MadaraUchiha/copy-action@0.0.1
-         with:
+        with:
          source: "Capstone-React/build"
          target: "Capstone-Spring/src/main/resources/static"
          
